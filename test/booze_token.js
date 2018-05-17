@@ -1,7 +1,7 @@
-var BooseToken = artifacts.require("./BooseToken.sol");
+var BoozeToken = artifacts.require("./BoozeToken.sol");
 //import assertRevert from './helpers/assertRevert';
 
-contract('BooseToken', (accounts) => {
+contract('BoozeToken', (accounts) => {
     var contract;
     //var owner = "0xbA22878a8E5f411D9C0F42eE34aC4B1A3950763D";
     var owner = accounts[0];
@@ -10,7 +10,7 @@ contract('BooseToken', (accounts) => {
 
     it('should deployed contract', async ()  => {
         assert.equal(undefined, contract);
-        contract = await BooseToken.deployed();
+        contract = await BoozeToken.deployed();
         assert.notEqual(undefined, contract);
     });
 

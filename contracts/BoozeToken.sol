@@ -236,7 +236,7 @@ contract StandardToken is ERC20, ERC223Token {
 
 }
 
-contract BooseToken is StandardToken {
+contract BoozeToken is StandardToken {
 
     string public constant name = "Booze Token";
     string public constant symbol = "BOOZE";
