@@ -241,7 +241,7 @@ contract BoozeToken is StandardToken {
     string public constant name = "Booze Token";
     string public constant symbol = "BOOZE";
     uint8 public constant decimals = 18;
-    uint256 public constant INITIAL_SUPPLY = 10**8 * (10**uint256(decimals));
+    uint256 public constant INITIAL_SUPPLY = 10**9 * (10**uint256(decimals));
     address public owner;
 
     event OwnerChanged(address indexed previousOwner, address indexed newOwner);
